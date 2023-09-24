@@ -1,4 +1,4 @@
-# vgmstream
+# vgmstream-adding a small Python program to automate the file conversion
 This is vgmstream, a library for playing streamed (prerecorded) video game audio.
 
 Some of vgmstream's features:
@@ -53,6 +53,23 @@ missing parts on vgmstream's side or lack of support in the player.
 
 Note that vgmstream cannot *encode* (convert from `.wav` to a video game format), it only *decodes*
 (plays game audio).
+
+
+### use the program to automate the file conversion
+
+The translation of your text to English is:
+
+- You'll need to have Python installed on your computer:
+https://www.python.org/downloads/windows/
+
+- Open the file "convert_wem.py" with a code editor like Visual Studio Code.
+
+- You will need to set the paths to the folder where all your .wem files are located, the path where they will be saved, and the path where "vgmstream_cli" is located:
+
+#Paths for the source and destination folders
+source_folder = r"path of your folder with your wem files"
+destination_folder = r"path destination of your converted files"
+vgmstream_cli_path = r"path of vgmstream_cli"
 
 
 ### Windows
