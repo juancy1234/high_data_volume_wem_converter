@@ -57,19 +57,22 @@ Note that vgmstream cannot *encode* (convert from `.wav` to a video game format)
 
 ### use the program to automate the file conversion
 
-The translation of your text to English is:
 
-- You'll need to have Python installed on your computer:
+- You will need to have Python installed on your computer.
 https://www.python.org/downloads/windows/
 
-- Open the file "convert_wem.py" with a code editor like Visual Studio Code.
+- Open the file "convert_wem.py" with a code editor such as Visual Studio Code.
 
-- You will need to set the paths to the folder where all your .wem files are located, the path where they will be saved, and the path where "vgmstream_cli" is located:
+- You will need to set the paths to the folder where all your .wem files are located, the path where they will be saved, and the path to where "vgmstream_cli" is located:
 
-#Paths for the source and destination folders
+# Paths for the source and destination folders
 source_folder = r"path of your folder with your wem files"
 destination_folder = r"path destination of your converted files"
-vgmstream_cli_path = r"path of vgmstream_cli"
+vgmstream_cli_path = r"the path of vgmstream_cli"
+
+- Next, open a CMD window. You can do this by pressing the windows+R keys and typing 'cmd'.
+- Navigate to your folder's location using the command: -cd "path of your folder".
+- Finally, run the code using the command: -python convert_wem.py.
 
 
 ### Windows
